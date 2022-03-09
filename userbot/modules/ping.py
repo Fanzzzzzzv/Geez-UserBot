@@ -118,7 +118,7 @@ async def redis(pong):
     await pong.edit("__Connecting to data center...__")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**⚡𝗚𝗲𝗲𝘇-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡**\n"
+    await pong.edit(f"**💮SAKURA-USERBOT💮**\n"
                     f"➾ __Signal__    __:__ "
                     f"`%sms` \n"
                     f"➾ __Uptime__ __:__ "
@@ -138,11 +138,11 @@ async def redis(pong):
     await pong.edit("__Connecting..__")
     await pong.edit("__Connecting...__")
     await pong.edit("__Connecting....__")
-    await pong.edit("⚡")
+    await pong.edit("🥶")
     await asyncio.sleep(2)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**⚡𝗚𝗲𝗲𝘇-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡**\n\n"
+    await pong.edit(f"**💮SAKURA-USERBOT**\n\n"
                     f"** ▹  Sɪɢɴᴀʟ   :** "
                     f"`%sms` \n"
                     f"** ▹  Uᴘᴛɪᴍᴇ  :** "
@@ -161,7 +161,7 @@ async def _(ping):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await ping.client.get_me()
-    await xx.edit(f"**Geez - Project!!🎈**\n**Pinger** : %sms\n**Bot Uptime** : {uptime}🕛" % (duration))
+    await xx.edit(f"**Kekuatan Sinyal : 💮SAKURA-USERBOT💮**\n**Pinger** : %sms\n**Bot Uptime** : {uptime}🕛" % (duration))
 
 
 @geez_cmd(pattern="speed$")
@@ -188,7 +188,7 @@ async def speedtst(spd):
                    f"`{result['ping']}` \n"
                    "✧ **ISP:** "
                    f"`{result['client']['isp']}` \n"
-                   "✧ **BOT:** ⚡𝗚𝗲𝗲𝘇-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡")
+                   "✧ **BOT:**💮SAKURA-USERBOT💮")
 
 
 def speed_convert(size):
@@ -210,7 +210,7 @@ async def pingme(pong):
     start = datetime.now()
     await pong.edit("PONG")
     await asyncio.sleep(1)
-    await pong.edit("⚡")
+    await pong.edit("")
     end = datetime.now()
     duration = (end - start).microseconds / 9000
     await pong.edit(f"**Oᴡɴᴇʀ : {ALIVE_NAME}**\n`%sms`" % (duration))
